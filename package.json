@@ -16,8 +16,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
   },
   "eslintConfig": {
@@ -37,10 +35,6 @@
     }
   },
   "lint-staged": {
-    "*.+(js|jsx)": [
-      "eslint --fix",
-      "git add"
-    ],
     "*.+(json|css|md)": [
       "prettier --write",
       "git add"
@@ -59,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "css-loader": "^3.5.3",
     "eslint": "^7.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
