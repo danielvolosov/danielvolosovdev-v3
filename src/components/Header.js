@@ -12,7 +12,7 @@ function Header() {
   color='white'
   bg='black'
   alignItems='center'>
-  <h1 variant='nav' href='#'>danielvolosov<span className="blinking">_</span></h1>
+  <h1 variant='nav' href='#'>> danielvolosov<span className="blinking">_</span></h1>
   <Box mx='auto' />
 </Flex>
     );

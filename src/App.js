@@ -7,6 +7,7 @@ import {
 
 function App() {
   return (
+    <div className="webFrame">
     <Box
   sx={{
     maxWidth: 512,
@@ -17,6 +18,7 @@ function App() {
       <Header />
     </div>
 </Box>
+</div>
   );
 }
 
