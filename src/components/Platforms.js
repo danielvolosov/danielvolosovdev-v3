@@ -1,39 +1,45 @@
 import React from 'react';
 import './Platforms.css';
 import {
-    Box,
     Flex,
+    Image, 
+    Card,
     Text
   } from 'rebass';
 
 function Platforms() {
     return (
-<Flex mx={-2}>
-  <Box width={1/2} px={2} py={4}>
-    <Text p={1} color='background' bg='black'>
-      Half
-    </Text>
-  </Box>
-  <Box width={1/2} px={2} py={4}>
-    <Text p={1} color='background' bg='black'>
-      Half
-    </Text>
-  </Box>
-  <Box width={1/2} px={2} py={4}>
-    <Text p={1} color='background' bg='black'>
-      Half
-    </Text>
-  </Box>
-  <Box width={1/2} px={2} py={4}>
-    <Text p={1} color='background' bg='black'>
-      Half
-    </Text>
-  </Box>
-  <Box width={1/2} px={2} py={4}>
-    <Text p={1} color='background' bg='black'>
-      Half
-    </Text>
-  </Box>
+<Flex py={3}>
+  <Card sx={{
+    display: 'inline-block',
+    bg: 'black'}} width={[ 256, 256 ]} mx='auto'>
+    <Image src={require('../shared/icons/twitter.svg')} />
+  </Card>
+  <Card  sx={{
+    display: 'inline-block',
+    bg: 'black'}} width={[ 256, 256 ]} mx='auto'>
+  <Image src={require('../shared/icons/linkedin.svg')} />
+  </Card>
+  <Card  sx={{
+    display: 'inline-block',
+    bg: 'black'}} width={[ 256, 256 ]} mx='auto'>
+  <Image src={require('../shared/icons/youtube.svg')} />
+  </Card>
+  <Card  sx={{
+    display: 'inline-block',
+    bg: 'black'}} width={[ 256, 256 ]} mx='auto'>
+  <Image src={require('../shared/icons/instagram.svg')} />
+  </Card>
+  <Card  sx={{
+    display: 'inline-block',
+    bg: 'black'}} width={[ 256, 256 ]} mx='auto'>
+  <Image src={require('../shared/icons/facebook.svg')} />
+  </Card>
+  <Card  sx={{
+    display: 'inline-block',
+    bg: 'black'}} width={[ 256, 256 ]} mx='auto'>
+  <Image src={require('../shared/icons/reddit.svg')} />
+  </Card>
 </Flex>
     );
   }
