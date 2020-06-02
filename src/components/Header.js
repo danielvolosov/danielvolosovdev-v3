@@ -5,7 +5,6 @@ import {Box, Flex} from "rebass";
 import * as siteConstants from "../shared/Constants";
 
 function Header() {
-  
   const nameContent = siteConstants.NAME;
 
   return (

@@ -5,7 +5,6 @@ import {Flex, Image, Card} from "rebass";
 import * as siteConstants from "../shared/Constants";
 
 function Platforms() {
-  
   const twitter = siteConstants.TWITTER;
   const linkedin = siteConstants.LINKEDIN;
   const github = siteConstants.GITHUB;

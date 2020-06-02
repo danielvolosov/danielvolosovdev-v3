@@ -5,7 +5,6 @@ import "./Body.css";
 import * as siteConstants from "../shared/Constants";
 
 function Contact() {
-  
   const contact = siteConstants.CONTACT;
 
   return (
