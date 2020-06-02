@@ -22,7 +22,7 @@ function Platforms() {
   <Card  sx={{
     display: 'inline-block',
     bg: 'black'}} width={[ 256, 256 ]} mx='auto'>
-  <Image src={require('../shared/icons/youtube.svg')} />
+  <Image src={require('../shared/icons/github.svg')} />
   </Card>
   <Card  sx={{
     display: 'inline-block',
