@@ -4,6 +4,7 @@
 
 .header {
   font-family: "Inconsolata", monospace;
+  font-size: 24px;
 }
 
 @keyframes blinkingText {

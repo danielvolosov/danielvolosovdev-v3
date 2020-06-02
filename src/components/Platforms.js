@@ -3,8 +3,7 @@ import './Platforms.css';
 import {
     Flex,
     Image, 
-    Card,
-    Text
+    Card
   } from 'rebass';
 
 function Platforms() {
