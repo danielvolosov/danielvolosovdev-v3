@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.footer {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}

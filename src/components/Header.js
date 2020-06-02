@@ -15,7 +15,7 @@ function Header() {
     return (
 <Flex
   className="header"
-  px={2}
+  px={1}
   color='white'
   bg='black'
   alignItems='center'>

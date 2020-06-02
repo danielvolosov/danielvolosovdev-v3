@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.contact {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contactContainer {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+}

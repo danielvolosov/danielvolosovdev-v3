@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-    Box,
-    Flex,
-    Text
-  } from 'rebass';
+import './Contact.css';
 
 import './Body.css';
 
@@ -13,15 +9,9 @@ function Contact() {
     const contact = siteConstants.CONTACT;
 
     return (
-<div>
-<Flex alignItems='center' mx={-2}>
-  <Box width={2/2} px={2} py={3}>
-    <Text p={1} color='background' bg='black'>
-        <span className="body">{ contact }</span>
-    </Text>
-  </Box>
-</Flex>
-</div>
+      <div className="contactContainer">
+      <span className="contact">{ contact }</span>
+      </div>      
     );
   }
   
