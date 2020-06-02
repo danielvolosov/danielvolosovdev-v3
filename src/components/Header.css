@@ -1,6 +1,11 @@
 .blinking {
   animation: blinkingText 1.2s infinite;
 }
+
+.header {
+  font-family: "Inconsolata", monospace;
+}
+
 @keyframes blinkingText {
   0% {
     color: #fff;
