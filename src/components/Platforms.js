@@ -1,6 +1,6 @@
 import React from "react";
 import "./Platforms.css";
-import {Flex, Image, Card} from "rebass";
+import { Image } from "rebass";
 
 import * as siteConstants from "../shared/Constants";
 
