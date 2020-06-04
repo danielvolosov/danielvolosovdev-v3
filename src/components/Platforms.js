@@ -5,12 +5,12 @@ import {Flex, Image, Card} from "rebass";
 import * as siteConstants from "../shared/Constants";
 
 const mediaLinks = [
- twitter = siteConstants.TWITTER,
- linkedin = siteConstants.LINKEDIN,
- github = siteConstants.GITHUB,
- instagram = siteConstants.INSTAGRAM,
- facebook = siteConstants.FACEBOOK,
- reddit = siteConstants.REDDIT
+  (twitter = siteConstants.TWITTER),
+  (linkedin = siteConstants.LINKEDIN),
+  (github = siteConstants.GITHUB),
+  (instagram = siteConstants.INSTAGRAM),
+  (facebook = siteConstants.FACEBOOK),
+  (reddit = siteConstants.REDDIT),
 ];
 
 const socialMediaIcons = [
@@ -67,7 +67,11 @@ function Platforms() {
         mx="auto"
       >
         {socialMedia.map((p) => {
-          return <a href={p.mediaLink}><Image key={p.id} src={p.src} alt="Picture unavailable" /></a>;
+          return (
+            <a href={p.mediaLink}>
+              <Image key={p.id} src={p.src} alt="Picture unavailable" />
+            </a>
+          );
         })}
       </Card>
     </Flex>
