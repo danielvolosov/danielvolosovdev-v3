@@ -3,7 +3,7 @@ import {Box, Flex, Text} from "rebass";
 
 import "./Body.css";
 
-import * as siteConstants from "../shared/Constants";
+import * as siteConstants from "../../shared/Constants";
 
 function Body() {
   const bodyContent = siteConstants.BODY;

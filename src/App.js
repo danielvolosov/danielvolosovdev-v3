@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Platforms from "./components/Platforms";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Header from "./components/header/Header";
+import Body from "./components/body/Body";
+import Platforms from "./components/platforms/Platforms";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 import "./App.css";
 import {Box} from "rebass";

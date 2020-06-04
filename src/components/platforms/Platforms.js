@@ -2,15 +2,15 @@ import React from "react";
 import "./Platforms.css";
 import {Image} from "rebass";
 
-import * as siteConstants from "../shared/Constants";
+import * as siteConstants from "../../shared/Constants";
 
 const socialMediaIcons = [
-  require("../shared/icons/twitter.svg"),
-  require("../shared/icons/linkedin.svg"),
-  require("../shared/icons/github.svg"),
-  require("../shared/icons/instagram.svg"),
-  require("../shared/icons/facebook.svg"),
-  require("../shared/icons/reddit.svg"),
+  require("../../shared/icons/twitter.svg"),
+  require("../../shared/icons/linkedin.svg"),
+  require("../../shared/icons/github.svg"),
+  require("../../shared/icons/instagram.svg"),
+  require("../../shared/icons/facebook.svg"),
+  require("../../shared/icons/reddit.svg"),
 ];
 
 const socialMedia = [

@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import {Box, Flex} from "rebass";
 
-import * as siteConstants from "../shared/Constants";
+import * as siteConstants from "../../shared/Constants";
 
 function Header() {
   const nameContent = siteConstants.NAME;
