@@ -49,16 +49,16 @@ export const socialMedia = [
 function Platforms() {
   return (
     <div className="platformContainer">
-        {socialMedia.map((p) => {
-          return (
-            <div className="platforms">
+      {socialMedia.map((p) => {
+        return (
+          <div className="platforms">
             <a href={p.mediaLink}>
               <Image key={p.id} src={p.src} alt="Picture unavailable" />
             </a>
-            </div>
-          );
-        })}
-        </div>
+          </div>
+        );
+      })}
+    </div>
   );
 }
 
