@@ -13,7 +13,7 @@ const socialMediaIcons = [
   require("../shared/icons/reddit.svg"),
 ];
 
-export const socialMedia = [
+const socialMedia = [
   {
     id: 1,
     mediaLink: siteConstants.TWITTER,
