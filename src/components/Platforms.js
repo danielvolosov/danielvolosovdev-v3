@@ -4,15 +4,6 @@ import {Flex, Image, Card} from "rebass";
 
 import * as siteConstants from "../shared/Constants";
 
-const mediaLinks = [
-  (twitter = siteConstants.TWITTER),
-  (linkedin = siteConstants.LINKEDIN),
-  (github = siteConstants.GITHUB),
-  (instagram = siteConstants.INSTAGRAM),
-  (facebook = siteConstants.FACEBOOK),
-  (reddit = siteConstants.REDDIT),
-];
-
 const socialMediaIcons = [
   require("../shared/icons/twitter.svg"),
   require("../shared/icons/linkedin.svg"),
@@ -25,56 +16,49 @@ const socialMediaIcons = [
 export const socialMedia = [
   {
     id: 1,
-    mediaLink: mediaLinks[0],
+    mediaLink: siteConstants.TWITTER,
     src: socialMediaIcons[0],
   },
   {
     id: 2,
-    mediaLink: mediaLinks[1],
+    mediaLink: siteConstants.LINKEDIN,
     src: socialMediaIcons[1],
   },
   {
     id: 3,
-    mediaLink: mediaLinks[2],
+    mediaLink: siteConstants.GITHUB,
     src: socialMediaIcons[2],
   },
   {
     id: 4,
-    mediaLink: mediaLinks[3],
+    mediaLink: siteConstants.INSTAGRAM,
     src: socialMediaIcons[3],
   },
   {
     id: 5,
-    mediaLink: mediaLinks[4],
+    mediaLink: siteConstants.FACEBOOK,
     src: socialMediaIcons[4],
   },
   {
     id: 6,
-    mediaLink: mediaLinks[5],
+    mediaLink: siteConstants.REDDIT,
     src: socialMediaIcons[5],
   },
 ];
 
 function Platforms() {
   return (
-    <Flex py={3}>
-      <Card
-        sx={{
-          display: "inline-block",
-          bg: "black",
-        }}
-        width={[256, 256]}
-        mx="auto"
-      >
+    <div className="platformContainer">
         {socialMedia.map((p) => {
           return (
+            <div className="platforms">
             <a href={p.mediaLink}>
               <Image key={p.id} src={p.src} alt="Picture unavailable" />
             </a>
+            </div>
           );
         })}
-      </Card>
-    </Flex>
+        </div>
   );
 }
 

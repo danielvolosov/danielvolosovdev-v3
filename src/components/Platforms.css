@@ -1,0 +1,9 @@
+.platforms {
+    width: 100%;
+    flex-direction: horizontal;
+    padding: 15px;
+}
+
+.platformContainer {
+    display: flex;
+}
