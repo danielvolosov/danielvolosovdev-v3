@@ -4,57 +4,58 @@ import {Flex, Image, Card} from "rebass";
 
 import * as siteConstants from "../shared/Constants";
 
-  const twitter = siteConstants.TWITTER;
-  const linkedin = siteConstants.LINKEDIN;
-  const github = siteConstants.GITHUB;
-  const instagram = siteConstants.INSTAGRAM;
-  const facebook = siteConstants.FACEBOOK;
-  const reddit = siteConstants.REDDIT;
+const mediaLinks = [
+ twitter = siteConstants.TWITTER,
+ linkedin = siteConstants.LINKEDIN,
+ github = siteConstants.GITHUB,
+ instagram = siteConstants.INSTAGRAM,
+ facebook = siteConstants.FACEBOOK,
+ reddit = siteConstants.REDDIT
+];
 
-  const socialMediaIcons = [
+const socialMediaIcons = [
   require("../shared/icons/twitter.svg"),
   require("../shared/icons/linkedin.svg"),
   require("../shared/icons/github.svg"),
   require("../shared/icons/instagram.svg"),
   require("../shared/icons/facebook.svg"),
-  require("../shared/icons/reddit.svg")
-  ];
+  require("../shared/icons/reddit.svg"),
+];
 
-  export const socialMedia = [
-    {
-      id: 1,
-      name: "Twitter",
-      src: socialMediaIcons[0]
-    },
-    {
-      id: 2,
-      name: "Linkedin",
-      src: socialMediaIcons[1]
-    },
-    {
-      id: 3,
-      name: "Github",
-      src: socialMediaIcons[2]
-    },
-    {
-      id: 4,
-      name: "Instagram",
-      src: socialMediaIcons[3]
-    },
-    {
-      id: 5,
-      name: "Facebook",
-      src: socialMediaIcons[4]
-    },
-    {
-      id: 6,
-      name: "Reddit",
-      src: socialMediaIcons[5]
-    }
-  ];
+export const socialMedia = [
+  {
+    id: 1,
+    mediaLink: mediaLinks[0],
+    src: socialMediaIcons[0],
+  },
+  {
+    id: 2,
+    mediaLink: mediaLinks[1],
+    src: socialMediaIcons[1],
+  },
+  {
+    id: 3,
+    mediaLink: mediaLinks[2],
+    src: socialMediaIcons[2],
+  },
+  {
+    id: 4,
+    mediaLink: mediaLinks[3],
+    src: socialMediaIcons[3],
+  },
+  {
+    id: 5,
+    mediaLink: mediaLinks[4],
+    src: socialMediaIcons[4],
+  },
+  {
+    id: 6,
+    mediaLink: mediaLinks[5],
+    src: socialMediaIcons[5],
+  },
+];
 
 function Platforms() {
-
   return (
     <Flex py={3}>
       <Card
@@ -65,11 +66,10 @@ function Platforms() {
         width={[256, 256]}
         mx="auto"
       >
-          {socialMedia.map(p => {
-            return <img key={p.id} src={p.src} alt="Picture unavailable" />;
-          })}
+        {socialMedia.map((p) => {
+          return <a href={p.mediaLink}><Image key={p.id} src={p.src} alt="Picture unavailable" /></a>;
+        })}
       </Card>
-      
     </Flex>
   );
 }
