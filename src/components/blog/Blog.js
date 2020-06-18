@@ -1,10 +1,10 @@
 import React from "react";
 import {Box, Flex, Text} from "rebass";
 
-import "./Body.css";
+import "./Blog.css";
 import * as siteConstants from "../../shared/Constants";
 
-function Body() {
+function Blog() {
   const bodyContent = siteConstants.BODY;
   const hobbyContent = siteConstants.BODY_HOBBIES;
 
@@ -26,4 +26,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Blog;
