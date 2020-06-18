@@ -18,7 +18,7 @@ function Header() {
       <Box mx="auto" />
       <div className="emailBlogContainer">
         <Router>
-        <Link to="/" className="emailBlogText">
+          <Link to="/" className="emailBlogText">
             home
           </Link>
           <Link to="/blog" className="emailBlogText">
