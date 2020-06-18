@@ -3,11 +3,7 @@ import HomeView from "./composite/home-view/HomeView";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import {Box} from "rebass";
 
@@ -27,17 +23,17 @@ function App() {
         <div className="App">
           <Header />
           <Router>
-      <Switch>
-          <Route path="/">
-            <HomeView />
-          </Route>
-          <Route path="/blog">
-            <BlogView />
-          </Route>
-    </Switch>
-    </Router>
-          <Footer />    
-    </div>
+            <Switch>
+              <Route path="/">
+                <HomeView />
+              </Route>
+              <Route path="/blog">
+                <BlogView />
+              </Route>
+            </Switch>
+          </Router>
+          <Footer />
+        </div>
       </Box>
     </div>
   );

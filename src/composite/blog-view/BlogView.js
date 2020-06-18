@@ -5,7 +5,6 @@ import "./BlogView.css";
 import BlogContainer from "../../components/blog-container/BlogContainer";
 
 function BlogView() {
-
   return (
     <div>
       <BlogContainer />
