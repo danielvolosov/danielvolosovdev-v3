@@ -1,5 +1,7 @@
 import React from "react";
-import Home from "./composite/home/Home";
+import HomeView from "./composite/home-view/HomeView";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
 
 import {
   BrowserRouter as Router,
@@ -10,10 +12,28 @@ import {
   useParams,
 } from "react-router-dom";
 
+import {Box, Flex, Text} from "rebass";
+
 import "./App.css";
 
 function App() {
-  return <Home />;
+  return (
+<div className="webFrame">
+      <Box
+        sx={{
+          maxWidth: 912,
+          mx: "auto",
+          px: 3,
+        }}
+      >
+        <div className="App">
+          <Header />
+          <HomeView />
+          <Footer />
+        </div>
+      </Box>
+    </div>
+  );
 }
 
 export default App;
