@@ -7,11 +7,11 @@ import "./HomeView.css";
 
 function HomeView() {
   return (
-      <div>
-          <Body />
-          <Platforms />
-          <Contact />
-          </div>
+    <div>
+      <Body />
+      <Platforms />
+      <Contact />
+    </div>
   );
 }
 
