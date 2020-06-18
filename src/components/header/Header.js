@@ -2,6 +2,11 @@ import React from "react";
 import "./Header.css";
 import {Box, Flex} from "rebass";
 
+import {
+  BrowserRouter as Router,
+  Link
+} from "react-router-dom";
+
 import * as siteConstants from "../../shared/Constants";
 
 function Header() {
@@ -15,7 +20,9 @@ function Header() {
       </h1>
       <Box mx="auto" />
       <div className="emailBlogContainer">
-        <span className="emailBlogText">blog</span>
+        <Router>
+        <Link to="/blog" className="emailBlogText">blog</Link>
+        </Router>
       </div>
     </Flex>
   );

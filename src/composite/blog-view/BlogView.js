@@ -2,26 +2,13 @@ import React from "react";
 import {Box, Flex, Text} from "rebass";
 
 import "./BlogView.css";
-import * as siteConstants from "../../shared/Constants";
+import BlogContainer from "../../components/blog-container/BlogContainer";
 
 function BlogView() {
-  const bodyContent = siteConstants.BODY;
-  const hobbyContent = siteConstants.BODY_HOBBIES;
 
   return (
     <div>
-      <Flex mx={-2}>
-        <Box width={2 / 2} px={2} py={3}>
-          <Text p={1} color="background" bg="black">
-            <span className="body">{bodyContent}</span>
-          </Text>
-        </Box>
-        <Box width={2 / 2} px={2} py={3}>
-          <Text p={1} color="background" bg="black">
-            <span className="body">{hobbyContent}</span>
-          </Text>
-        </Box>
-      </Flex>
+      <BlogContainer />
     </div>
   );
 }

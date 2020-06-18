@@ -6,15 +6,13 @@ import Header from "./components/header/Header";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams,
+  Route
 } from "react-router-dom";
 
-import {Box, Flex, Text} from "rebass";
+import {Box} from "rebass";
 
 import "./App.css";
+import BlogView from "./composite/blog-view/BlogView";
 
 function App() {
   return (
@@ -28,9 +26,18 @@ function App() {
       >
         <div className="App">
           <Header />
-          <HomeView />
-          <Footer />
-        </div>
+          <Router>
+      <Switch>
+          <Route path="/">
+            <HomeView />
+          </Route>
+          <Route path="/blog">
+            <BlogView />
+          </Route>
+    </Switch>
+    </Router>
+          <Footer />    
+    </div>
       </Box>
     </div>
   );
