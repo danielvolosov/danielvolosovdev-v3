@@ -14,6 +14,9 @@ function Header() {
         <span className="blinking">_</span>
       </h1>
       <Box mx="auto" />
+      <div className="emailBlogContainer">
+        <span className="emailBlogText">blog</span>
+      </div>
     </Flex>
   );
 }
