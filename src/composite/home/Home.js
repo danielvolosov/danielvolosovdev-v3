@@ -7,7 +7,7 @@ import Footer from "../../components/footer/Footer";
 
 import {Box, Flex, Text} from "rebass";
 
-import './Home.css';
+import "./Home.css";
 
 function Home() {
   return (
