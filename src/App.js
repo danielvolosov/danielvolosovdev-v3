@@ -24,12 +24,8 @@ function App() {
           <Header />
           <Router>
             <Switch>
-              <Route path="/">
-                <HomeView />
-              </Route>
-              <Route path="/blog">
-                <BlogView />
-              </Route>
+              <Route path="/"> component={HomeView}</Route>
+              <Route path="/blog"> component={BlogView}</Route>
             </Switch>
           </Router>
           <Footer />

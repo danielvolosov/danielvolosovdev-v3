@@ -13,7 +13,7 @@ function BlogContainer() {
           px: 3,
         }}
       >
-        Its a blog!
+        <p className="text">Its a asdfsfdasdfasdfsdfasdfasdfasdf!</p>
       </Box>
     </div>
   );
