@@ -7,15 +7,6 @@
   font-size: 18px;
 }
 
-.emailBlogContainer {
-  float: right;
-}
-
-.emailBlogText {
-  color: white;
-  text-align: right;
-}
-
 @keyframes blinkingText {
   0% {
     color: #fff;

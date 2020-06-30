@@ -3,12 +3,9 @@ import HomeView from "./composite/home-view/HomeView";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-
 import {Box} from "rebass";
 
 import "./App.css";
-import BlogView from "./composite/blog-view/BlogView";
 
 function App() {
   return (
@@ -22,12 +19,7 @@ function App() {
       >
         <div className="App">
           <Header />
-          <Router>
-            <Switch>
-              <Route path="/"> component={HomeView}</Route>
-              <Route path="/blog"> component={BlogView}</Route>
-            </Switch>
-          </Router>
+          <HomeView />
           <Footer />
         </div>
       </Box>
