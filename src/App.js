@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "./components/header/Header";
-import Body from "./components/body/Body";
-import Platforms from "./components/platforms/Platforms";
-import Contact from "./components/contact/Contact";
+import HomeView from "./composite/home-view/HomeView";
 import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+
+import {Box} from "rebass";
 
 import "./App.css";
-import {Box} from "rebass";
 
 function App() {
   return (
@@ -20,9 +19,7 @@ function App() {
       >
         <div className="App">
           <Header />
-          <Body />
-          <Platforms />
-          <Contact />
+          <HomeView />
           <Footer />
         </div>
       </Box>

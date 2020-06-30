@@ -7,6 +7,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@rebass/preset": "^4.0.5",
     "emotion-theming": "^10.0.27",
+    "marked": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",

@@ -2,7 +2,6 @@ import React from "react";
 import {Box, Flex, Text} from "rebass";
 
 import "./Body.css";
-
 import * as siteConstants from "../../shared/Constants";
 
 function Body() {
