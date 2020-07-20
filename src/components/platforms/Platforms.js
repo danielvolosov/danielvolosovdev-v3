@@ -9,7 +9,6 @@ const socialMediaIcons = [
   require("../../shared/icons/linkedin.svg"),
   require("../../shared/icons/github.svg"),
   require("../../shared/icons/instagram.svg"),
-  require("../../shared/icons/facebook.svg"),
   require("../../shared/icons/reddit.svg"),
 ];
 
@@ -36,11 +35,6 @@ const socialMedia = [
   },
   {
     id: 5,
-    mediaLink: siteConstants.FACEBOOK,
-    src: socialMediaIcons[4],
-  },
-  {
-    id: 6,
     mediaLink: siteConstants.REDDIT,
     src: socialMediaIcons[5],
   },
