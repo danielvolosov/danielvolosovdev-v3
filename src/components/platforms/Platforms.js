@@ -36,7 +36,7 @@ const socialMedia = [
   {
     id: 5,
     mediaLink: siteConstants.REDDIT,
-    src: socialMediaIcons[5],
+    src: socialMediaIcons[4],
   },
 ];
 
