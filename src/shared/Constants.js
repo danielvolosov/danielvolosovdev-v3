@@ -11,6 +11,5 @@ export const CONTACT =
 export const TWITTER = "http://www.twitter.com/danielvolosov";
 export const INSTAGRAM = "http://www.instagram.com/danielvolosov";
 export const LINKEDIN = "http://www.linkedin.com/in/danielvolosov";
-export const FACEBOOK = "http://www.facebook.com/daniel.volosov.3";
 export const GITHUB = "http://www.github.com/danielvolosov";
 export const REDDIT = "https://www.reddit.com/user/dvexe";
