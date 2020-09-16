@@ -8,8 +8,8 @@ const socialMediaIcons = [
   require("../../shared/icons/twitter.svg"),
   require("../../shared/icons/linkedin.svg"),
   require("../../shared/icons/github.svg"),
+  require("../../shared/icons/medium.svg"),
   require("../../shared/icons/instagram.svg"),
-  require("../../shared/icons/reddit.svg"),
 ];
 
 const socialMedia = [
@@ -30,12 +30,12 @@ const socialMedia = [
   },
   {
     id: 4,
-    mediaLink: siteConstants.INSTAGRAM,
+    mediaLink: siteConstants.MEDIUM,
     src: socialMediaIcons[3],
   },
   {
     id: 5,
-    mediaLink: siteConstants.REDDIT,
+    mediaLink: siteConstants.INSTAGRAM,
     src: socialMediaIcons[4],
   },
 ];

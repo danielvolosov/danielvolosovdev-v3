@@ -12,4 +12,4 @@ export const TWITTER = "http://www.twitter.com/danielvolosov";
 export const INSTAGRAM = "http://www.instagram.com/danielvolosov";
 export const LINKEDIN = "http://www.linkedin.com/in/danielvolosov";
 export const GITHUB = "http://www.github.com/danielvolosov";
-export const REDDIT = "https://www.reddit.com/user/dvexe";
+export const MEDIUM = "https://www.medium.com/@danielvolosov";
