@@ -7,6 +7,18 @@
   font-size: 18px;
 }
 
+.headerContainer {
+  justify-content: space-between
+}
+
+.links {
+display: flex;
+}
+
+.link-item {
+  padding: 16px;
+}
+
 @keyframes blinkingText {
   0% {
     color: #fff;
