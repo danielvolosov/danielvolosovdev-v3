@@ -8,11 +8,11 @@
 }
 
 .headerContainer {
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .links {
-display: flex;
+  display: flex;
 }
 
 .link-item {
