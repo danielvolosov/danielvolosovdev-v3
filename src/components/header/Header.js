@@ -1,7 +1,13 @@
 import React from "react";
 import "./Header.css";
+import "../../App";
 import {Box, Flex, Link as RebassLink} from "rebass";
-import {Link as ReactLink, BrowserRouter as Router} from "react-router-dom";
+import {
+  Link as ReactLink,
+  BrowserRouter as Router,
+  useRouteMatch,
+  useParams,
+} from "react-router-dom";
 
 import * as siteConstants from "../../shared/Constants";
 
@@ -16,7 +22,7 @@ function Header() {
       bg="black"
       alignItems="center"
     >
-      <h1 variant="nav" href="#">
+      <h1 variant="nav" href="/">
         > {nameContent}
         <span className="blinking">_</span>
       </h1>

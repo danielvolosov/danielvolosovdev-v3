@@ -1,6 +1,7 @@
 import React from "react";
 import HomeView from "./composite/home-view/HomeView";
-import Footer from "./components/footer/Footer";
+import UsesView from "./composite/uses-view/UsesView";
+import ErrorView from "./composite/error-view/ErrorView";
 import Header from "./components/header/Header";
 
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
@@ -23,16 +24,10 @@ function App() {
           <Router>
             <div>
               <Switch>
-                <Route path="/">
-                  <Header />
-                  <HomeView />
-                  <Footer />
-                </Route>
-                <Route path="/uses">
-                  <Header />
-                  Fish
-                  <Footer />
-                </Route>
+                <Route exact path="/" component={HomeView} />
+                <Route exact path="/home" component={HomeView} />
+                <Route exact path="/uses" component={UsesView} />
+                <Route component={ErrorView} />
               </Switch>
             </div>
           </Router>
