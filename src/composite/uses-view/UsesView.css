@@ -1,5 +1,4 @@
-.box {
-  width: 500px;
-  height: 500px;
-  border: solid white;
+.readmeContainer {
+  color: white;
+  padding-bottom: 5em;
 }
