@@ -3,6 +3,7 @@
   "description": "Daniel Volosov's personal website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://danielvolosov.dev",
   "dependencies": {
     "@rebass/preset": "^4.0.5",
     "emotion-theming": "^10.0.27",
