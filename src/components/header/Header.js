@@ -23,16 +23,12 @@ function Header() {
       <Box mx="auto" />
       <Router>
         <div className="links">
-          <div className="linkItem">
-            <RebassLink variant="nav">
+            <RebassLink variant='nav' sx={{fontSize: 2, color: 'primary'}}>
               <ReactLink to="/">/home</ReactLink>
             </RebassLink>
-          </div>
-          <div className="linkItem">
-            <RebassLink variant="nav">
+            <RebassLink variant='nav' sx={{fontSize: 2}}>
               <ReactLink to="/uses">/uses</ReactLink>
             </RebassLink>
-          </div>
         </div>
       </Router>
     </Flex>
