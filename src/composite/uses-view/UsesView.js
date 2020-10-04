@@ -1,17 +1,22 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
 
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 
+import Uses from "./Uses.md";
+
 import "./UsesView.css";
-const Markdown = require('react-markdown');
+
 
 function UsesView() {
-    
+
   return (
     <div>
       <Header />
-      <Markdown source="./Uses.md" />
+      <div>
+      <ReactMarkdown source={Uses} />
+      </div>
       <Footer />
     </div>
   );

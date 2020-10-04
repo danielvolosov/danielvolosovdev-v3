@@ -16,7 +16,7 @@ I use a lot of different hardware/software for different purposes. The following
 
 1. I use an LG 34WN80C-B 34" Ultrawide for my work. I find it incredibly helptful to have all of my apps organized on a single display.
 
-2. I use a 2019 16" MacBook Pro with 32gb RAM & 8-Core i9 Processor + 1TB SSD. I genuinely enjoy MacOS for just about everything. I also use a Magic Keyboard with the number pad. Those things can hold a charge for months!
+2. I use a 2019 16" MacBook Pro. I genuinely enjoy MacOS for just about everything. I also use a Magic Keyboard with the number pad. Those things can hold a charge for months!
 
 3. I just purchased a Logitech MX3 Master mouse. It's so comfortable!
 

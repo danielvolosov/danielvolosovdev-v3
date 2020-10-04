@@ -2,7 +2,6 @@ import React from "react";
 import HomeView from "./composite/home-view/HomeView";
 import UsesView from "./composite/uses-view/UsesView";
 import ErrorView from "./composite/error-view/ErrorView";
-import Header from "./components/header/Header";
 
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
