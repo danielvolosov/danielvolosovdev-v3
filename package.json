@@ -6,8 +6,6 @@
   "dependencies": {
     "@rebass/preset": "^4.0.5",
     "emotion-theming": "^10.0.27",
-    "marked": "^1.2.0",
-    "raw-loader": "^4.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
