@@ -8,14 +8,12 @@ import Uses from "./Uses.md";
 
 import "./UsesView.css";
 
-
 function UsesView() {
-
   return (
     <div>
       <Header />
       <div>
-      <ReactMarkdown source={Uses} />
+        <ReactMarkdown source={Uses} />
       </div>
       <Footer />
     </div>
