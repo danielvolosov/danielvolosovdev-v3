@@ -9,7 +9,8 @@
 		"react": "^16.14.0",
 		"react-dom": "^16.14.0",
 		"react-scripts": "3.4.1",
-		"rebass": "^4.0.7"
+		"rebass": "^4.0.7",
+		"eslint": "^6.6.0"
 	},
 	"scripts": {
 		"start": "react-scripts start",
