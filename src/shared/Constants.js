@@ -5,7 +5,7 @@ export const BODY =
 export const BODY_HOBBIES =
   "In his spare time, Daniel enjoys learning world history & new spoken languages, planning his future travels, working on projects involving new technologies, playing acoustic guitar, listening to a variety of music (Folk, Rock, Metal & Electronic), reading both fantasy and non-fiction, watching scary movies and spending some time in the gym. He is currently open to contributing to new open-source projects in his free time as well.";
 export const CONTACT =
-  "To get in contact - send a Tweet/DM @danielvolosov on Twitter.";
+  "To get in contact - send a Tweet/DM @danielvolosov on Twitter or LinkedIn.";
 
 // Social Media
 export const TWITTER = "http://www.twitter.com/danielvolosov";
