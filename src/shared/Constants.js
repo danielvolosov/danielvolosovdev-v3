@@ -9,7 +9,8 @@ export const CONTACT =
 
 // Social Media
 export const TWITTER = 'http://www.twitter.com/danielvolosov';
-export const INSTAGRAM = 'http://www.instagram.com/danielvolosov';
+export const STACKOVERFLOW =
+	'https://stackoverflow.com/users/13610500/danielvolosov?tab=profile';
 export const LINKEDIN = 'http://www.linkedin.com/in/danielvolosov';
 export const GITHUB = 'http://www.github.com/danielvolosov';
 export const MEDIUM = 'https://www.medium.com/@danielvolosov';
