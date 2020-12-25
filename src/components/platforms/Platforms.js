@@ -5,7 +5,6 @@ import { Image } from 'rebass';
 import * as siteConstants from '../../shared/Constants';
 
 const socialMediaIcons = [
-	require('../../shared/icons/twitter.svg'),
 	require('../../shared/icons/linkedin.svg'),
 	require('../../shared/icons/github.svg'),
 	require('../../shared/icons/medium.svg'),
@@ -15,28 +14,23 @@ const socialMediaIcons = [
 const socialMedia = [
 	{
 		id: 1,
-		mediaLink: siteConstants.TWITTER,
+		mediaLink: siteConstants.LINKEDIN,
 		src: socialMediaIcons[0],
 	},
 	{
 		id: 2,
-		mediaLink: siteConstants.LINKEDIN,
+		mediaLink: siteConstants.GITHUB,
 		src: socialMediaIcons[1],
 	},
 	{
 		id: 3,
-		mediaLink: siteConstants.GITHUB,
+		mediaLink: siteConstants.MEDIUM,
 		src: socialMediaIcons[2],
 	},
 	{
 		id: 4,
-		mediaLink: siteConstants.MEDIUM,
-		src: socialMediaIcons[3],
-	},
-	{
-		id: 5,
 		mediaLink: siteConstants.STACKOVERFLOW,
-		src: socialMediaIcons[4],
+		src: socialMediaIcons[3],
 	},
 ];
 
