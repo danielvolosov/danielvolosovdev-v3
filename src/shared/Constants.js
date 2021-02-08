@@ -1,9 +1,9 @@
 // Components
 export const NAME = 'danielvolosov';
 export const BODY =
-	'Software Engineer with 3+ years of experience as a consultant. In the private sector, Daniel has developed software for several different industries including health insurance, wholesale distribution, tech startups and restaurant chains. He is experienced with building applications for organizations ranging from the largest global insurance provider, to a small cutting-edge startup. Daniel is currently working in the federal sector.';
+	'Software Developer with 3+ years experience as a consultant. Daniel has developed software for clients including one of the largest insurance organizations, national wholesale roofing provider, innovative startup, national restaurant chain and federal department. Daniel is currently seeking a new opportunity outside of consulting to build long term relationships and contribute to the growth of an organization for an extended period of time.';
 export const BODY_HOBBIES =
-	'In his spare time, Daniel enjoys learning world history & new spoken languages, planning his future travels, working on projects involving new technologies, playing acoustic guitar, listening to a variety of music (Folk, Rock, Metal & Electronic), reading both fantasy and non-fiction, watching scary movies and spending some time in the gym. He is currently open to contributing to new open-source projects in his free time as well.';
+	'In his spare time, Daniel enjoys learning world history & new spoken languages, playing video games, working on projects involving new technologies, playing acoustic guitar, listening to a variety of music (Folk, Rock, Metal & Electronic), reading both fantasy and non-fiction, watching scary movies and spending some time in the gym. He is currently open to contributing to new open-source projects in his free time as well.';
 export const CONTACT =
 	'For professional inquiries - please send a message and connection request on LinkedIn.';
 
