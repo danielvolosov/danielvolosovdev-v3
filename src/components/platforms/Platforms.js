@@ -7,7 +7,7 @@ import * as siteConstants from '../../shared/Constants';
 const socialMediaIcons = [
 	require('../../shared/icons/linkedin.svg'),
 	require('../../shared/icons/github.svg'),
-	require('../../shared/icons/medium.svg'),
+	require('../../shared/icons/SubtleAlgorithm.png'),
 	require('../../shared/icons/stackoverflow.svg'),
 ];
 
@@ -24,7 +24,7 @@ const socialMedia = [
 	},
 	{
 		id: 3,
-		mediaLink: siteConstants.MEDIUM,
+		mediaLink: siteConstants.SUBTLEALGORITHM,
 		src: socialMediaIcons[2],
 	},
 	{
